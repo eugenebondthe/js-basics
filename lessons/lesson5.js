@@ -9,11 +9,15 @@ let ageIsMoreThanEighteen = true
 let isUSCitizen = true
 
 function isEligibleForDL(age, usCitizenship) {
-    return age && usCitizenship
+  return age && usCitizenship
 }
-console.log(`This customer is eligible for DL: ${isEligibleForDL(ageIsMoreThanEighteen, isUSCitizen)}`)
+console.log(
+  `This customer is eligible for DL: ${isEligibleForDL(ageIsMoreThanEighteen, isUSCitizen)}`,
+)
 
-console.log(`This customer is eligible for DL: ${ageIsMoreThanEighteen && isUSCitizen}`)
+console.log(
+  `This customer is eligible for DL: ${ageIsMoreThanEighteen && isUSCitizen}`,
+)
 
 // Logical NOT
 console.log(!true)

@@ -1,9 +1,9 @@
 // Conditional statement
 
-if(condition){
-    //execute smthng
+if (condition) {
+  //execute smthng
 } else {
-    //execute smthng
+  //execute smthng
 }
 
 // If h between 6 and 12 - print 'GM'
@@ -11,10 +11,10 @@ if(condition){
 // Otherwise: 'GE'
 
 let h = 6
-if(h >= 6 && h < 12){
-    console.log('GM')
-} else if(h >= 12 && h < 18){
-    console.log('GA')
+if (h >= 6 && h < 12) {
+  console.log('GM')
+} else if (h >= 12 && h < 18) {
+  console.log('GA')
 } else {
-    console.log('GE')
+  console.log('GE')
 }
